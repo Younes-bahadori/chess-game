@@ -22,8 +22,8 @@
     height: 60px;
     width: 60px;
     cursor: pointer;
-    border: 1px solid white;
-    background-color: white;
+    /* border: 1px solid white;
+    background-color: white; */
 }
 
 
@@ -51,11 +51,11 @@
 }
 
 .dark {
-    background-color: #779AAF
+    background-color: #739552
 }
 
 .light {
-    background-color: #D9E4E8;
+    background-color: #ebecd0;
 }
 
 .piece {
@@ -63,26 +63,26 @@
 }
 
 .selected-square {
-    box-shadow: inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px, inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+    background-color: #FFEC5C;
 }
 
 .safe-square {
     position: absolute;
     height: 20px;
     width: 20px;
-    background-color: #bbb;
+    background-color: #b0d1a4;
     border-radius: 50%;
     z-index: 100;
 }
 
 .king-in-check {
-    box-shadow: inset rgb(179, 21, 0) 0px 0px 40px 0px, inset rgb(163, 11, 0) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+    box-shadow: inset rgb(199, 37, 62) 0px 0px 40px 0px, inset rgb(199, 37, 62) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
 }
 
 .last-move {
-    box-shadow: inset rgb(6, 179, 0) 0px 0px 40px 0px, inset rgb(6, 179, 0)0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+    box-shadow: inset #9ab4eb  0px 0px 40px 0px, inset #9ab4eb  0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
 }
 
 .promotion-square {
-    box-shadow: inset rgb(0, 98, 150) 0px 0px 40px 0px, inset rgb(0, 98, 150) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+    box-shadow: inset rgb(128, 188, 189) 0px 0px 40px 0px, inset rgb(128, 188, 189) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
 }
